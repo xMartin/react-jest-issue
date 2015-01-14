@@ -1,0 +1,22 @@
+{
+  "name": "react-jest-issue",
+  "dependencies": {
+    "react": "0.12.2"
+  },
+  "devDependencies": {
+    "jest-cli": "0.2.1",
+    "react-tools": "0.12.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ],
+    "testPathDirs": [
+      "src"
+    ]
+  }
+}
