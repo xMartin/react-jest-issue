@@ -1,5 +1,4 @@
 jest.dontMock('../component_a');
-jest.mock('react/lib/ReactTransitionGroup');
 
 var React = require('react/addons');
 var TestUtils = React.addons.TestUtils;
